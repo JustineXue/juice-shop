@@ -1,0 +1,49 @@
+name: LLM Code Validation Workflow
+
+on:
+  push:
+    branches:
+      - '**'  # Trigger on any branch push
+
+jobs:
+  test-and-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Juice Shop tests
+      run: npm test
+      continue-on-error: false
+    - name: Start Juice Shop server
+      run: |
+        npm start &
+        sleep 30  # Wait for server to be ready
+
+    - name: Run OWASP ZAP Baseline Scan
+      uses: zaproxy/action-baseline@v0.7.0
+      with:
+        target: 'http://localhost:3000'
+        cmd_options: '-a -t http://localhost:3000 -r zap_report.html'
+
+    - name: Upload ZAP Scan Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: zap-report
+        path: zap_report.html
+
+    - name: Upload Test Results
+      if: success()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: test-results/  # Adjust if your test framework outputs elsewhere

@@ -52,7 +52,6 @@ jobs:
       with:
         target: 'http://localhost:3000'
         rules_file_name: '.zap/rules.tsv'
-        cmd_options: '-a -t http://localhost:3000 -r zap_report.html'
 
     - name: Generate workflow summary
       run: |
@@ -68,7 +67,10 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: zap-report
-        path: zap_report.html
+        path: |
+          report_html.html
+          report_json.json
+          report_md.md
         retention-days: 30
 
     - name: Upload Test Results

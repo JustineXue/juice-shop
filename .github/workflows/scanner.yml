@@ -1,0 +1,46 @@
+name: Security Scanning MVP
+
+on:
+  push:
+    branches: 
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # --- Trivy Scan (Dependencies & Docker Image) ---
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        severity: 'CRITICAL,HIGH'
+        ignore-unfixed: true
+        format: 'table'
+
+    # --- Semgrep (Static Code Analysis) ---
+    - name: Run Semgrep
+      uses: returntocorp/semgrep-action@v1
+      with:
+        config: "p/ci"   # Use public CI ruleset
+      env:
+        SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }} # optional (get more rules if you sign up)
+
+    # --- CodeQL (Semantic Code Analysis) ---
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v3
+      with:
+        languages: javascript
+
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v3
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3

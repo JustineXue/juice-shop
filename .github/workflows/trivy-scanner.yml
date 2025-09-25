@@ -1,5 +1,4 @@
-name: Security Scanning MVP
-
+name: Trivy Security Scan
 on:
   push:
     branches: 

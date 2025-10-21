@@ -16,10 +16,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Run Semgrep and Save Output
-      run: |
-        pip install semgrep
-        semgrep --config p/ci --config p/security-audit --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
+    - name: Run Semgrep Security Scan
+      uses: returntocorp/semgrep-action@v1
+      with:
+        config: p/owasp-top-ten
+        generateSarif: true
+
+    # - name: Run Semgrep and Save Output
+    #   run: |
+    #     pip install semgrep
+    #     semgrep --config p/ci --config p/security-audit --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
 
     - name: Upload Semgrep Results
       uses: actions/upload-artifact@v4

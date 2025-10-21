@@ -43,7 +43,8 @@ jobs:
 
     - name: Run Semgrep and Save Output
       run: |
-        pip install semgrep
+        pip install --upgrade semgrep
+        semgrep --version
         semgrep ci --config p/ci --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
         
     #   if: always()

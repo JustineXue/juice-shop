@@ -1,0 +1,1177 @@
+
+> juice-shop@18.0.0 test
+> cd frontend && npm run test -- --watch=false --source-map=true && cd .. && npm run test:server
+
+
+> frontend@18.0.0 test
+> ng test --watch=false --source-map=true
+
+[32m21 10 2025 07:33:49.377:INFO [karma-server]: [39mKarma v6.4.4 server started at http://localhost:9876/
+[32m21 10 2025 07:33:49.378:INFO [launcher]: [39mLaunching browsers ChromeHeadless with concurrency unlimited
+[32m21 10 2025 07:33:49.385:INFO [launcher]: [39mStarting browser ChromeHeadless
+[32m21 10 2025 07:34:01.800:INFO [Chrome Headless 140.0.0.0 (Linux 0.0.0)]: [39mConnected on socket UOlKSjPWXVdDlJkJAAAB with id 31634547
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 0 of 668 SUCCESS (0 secs / 0 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 1 of 668 SUCCESS (0 secs / 0.013 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 2 of 668 SUCCESS (0 secs / 0.016 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 3 of 668 SUCCESS (0 secs / 0.018 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 4 of 668 SUCCESS (0 secs / 0.02 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 5 of 668 SUCCESS (0 secs / 0.021 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 6 of 668 SUCCESS (0 secs / 0.023 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 7 of 668 SUCCESS (0 secs / 0.025 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 8 of 668 SUCCESS (0 secs / 0.05 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 9 of 668 SUCCESS (0 secs / 0.182 secs)
+[1A[2KLOG: 'Error'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 9 of 668 SUCCESS (0 secs / 0.182 secs)
+LOG: 'Error'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 10 of 668 SUCCESS (0 secs / 0.194 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 11 of 668 SUCCESS (0 secs / 0.2 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 12 of 668 SUCCESS (0 secs / 0.209 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 13 of 668 SUCCESS (0 secs / 0.215 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 14 of 668 SUCCESS (0 secs / 0.222 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 15 of 668 SUCCESS (0 secs / 0.224 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 16 of 668 SUCCESS (0 secs / 0.225 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 17 of 668 SUCCESS (0 secs / 0.228 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 18 of 668 SUCCESS (0 secs / 0.254 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 19 of 668 SUCCESS (0 secs / 0.261 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 20 of 668 SUCCESS (0 secs / 0.273 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 21 of 668 SUCCESS (0 secs / 0.281 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 22 of 668 SUCCESS (0 secs / 0.288 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 23 of 668 SUCCESS (0 secs / 0.293 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 24 of 668 SUCCESS (0 secs / 0.298 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 25 of 668 SUCCESS (0 secs / 0.304 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 26 of 668 SUCCESS (0 secs / 0.31 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 27 of 668 SUCCESS (0 secs / 0.315 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 28 of 668 SUCCESS (0 secs / 0.32 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 29 of 668 SUCCESS (0 secs / 0.325 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 30 of 668 SUCCESS (0 secs / 0.338 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 31 of 668 SUCCESS (0 secs / 0.344 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 32 of 668 SUCCESS (0 secs / 0.35 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 33 of 668 SUCCESS (0 secs / 0.355 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 34 of 668 SUCCESS (0 secs / 0.359 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 35 of 668 SUCCESS (0 secs / 0.363 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 36 of 668 SUCCESS (0 secs / 0.369 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 37 of 668 SUCCESS (0 secs / 0.374 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 38 of 668 SUCCESS (0 secs / 0.379 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 39 of 668 SUCCESS (0 secs / 0.384 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 40 of 668 SUCCESS (0 secs / 0.389 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 41 of 668 SUCCESS (0 secs / 0.42 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 42 of 668 SUCCESS (0 secs / 0.428 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 43 of 668 SUCCESS (0 secs / 0.446 secs)
+[33m21 10 2025 07:34:04.719:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 44 of 668 SUCCESS (0 secs / 0.454 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 45 of 668 SUCCESS (0 secs / 0.461 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 46 of 668 SUCCESS (0 secs / 0.467 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 47 of 668 SUCCESS (0 secs / 0.475 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 48 of 668 SUCCESS (0 secs / 0.481 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 49 of 668 SUCCESS (0 secs / 0.488 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 50 of 668 SUCCESS (0 secs / 0.495 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 51 of 668 SUCCESS (0 secs / 0.5 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 52 of 668 SUCCESS (0 secs / 0.506 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 53 of 668 SUCCESS (0 secs / 0.512 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 54 of 668 SUCCESS (0 secs / 0.518 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 55 of 668 SUCCESS (0 secs / 0.526 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 56 of 668 SUCCESS (0 secs / 0.532 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 57 of 668 SUCCESS (0 secs / 0.538 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 58 of 668 SUCCESS (0 secs / 0.544 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 59 of 668 SUCCESS (0 secs / 0.549 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 60 of 668 SUCCESS (0 secs / 0.554 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 61 of 668 SUCCESS (0 secs / 0.559 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 62 of 668 SUCCESS (0 secs / 0.573 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 63 of 668 SUCCESS (0 secs / 0.578 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 64 of 668 SUCCESS (0 secs / 0.583 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 65 of 668 SUCCESS (0 secs / 0.59 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 66 of 668 SUCCESS (0 secs / 0.713 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 67 of 668 SUCCESS (0 secs / 0.764 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 68 of 668 SUCCESS (0 secs / 0.781 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 69 of 668 SUCCESS (0 secs / 0.797 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 70 of 668 SUCCESS (0 secs / 0.816 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 71 of 668 SUCCESS (0 secs / 0.833 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 72 of 668 SUCCESS (0 secs / 0.85 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 73 of 668 SUCCESS (0 secs / 0.863 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 74 of 668 SUCCESS (0 secs / 0.887 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 75 of 668 SUCCESS (0 secs / 0.899 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 76 of 668 SUCCESS (0 secs / 0.912 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 77 of 668 SUCCESS (0 secs / 0.924 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 78 of 668 SUCCESS (0 secs / 0.94 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 79 of 668 SUCCESS (0 secs / 0.957 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 80 of 668 SUCCESS (0 secs / 0.969 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 81 of 668 SUCCESS (0 secs / 0.981 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 82 of 668 SUCCESS (0 secs / 0.995 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 83 of 668 SUCCESS (0 secs / 1.01 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 84 of 668 SUCCESS (0 secs / 1.023 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 85 of 668 SUCCESS (0 secs / 1.037 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 86 of 668 SUCCESS (0 secs / 1.049 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 87 of 668 SUCCESS (0 secs / 1.062 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 88 of 668 SUCCESS (0 secs / 1.074 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 89 of 668 SUCCESS (0 secs / 1.088 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 90 of 668 SUCCESS (0 secs / 1.102 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 91 of 668 SUCCESS (0 secs / 1.114 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 92 of 668 SUCCESS (0 secs / 1.125 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 93 of 668 SUCCESS (0 secs / 1.138 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 94 of 668 SUCCESS (0 secs / 1.151 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 95 of 668 SUCCESS (0 secs / 1.162 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 96 of 668 SUCCESS (0 secs / 1.175 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 97 of 668 SUCCESS (0 secs / 1.189 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 98 of 668 SUCCESS (0 secs / 1.201 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 99 of 668 SUCCESS (0 secs / 1.203 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 100 of 668 SUCCESS (0 secs / 1.204 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 101 of 668 SUCCESS (0 secs / 1.206 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 102 of 668 SUCCESS (0 secs / 1.235 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 103 of 668 SUCCESS (0 secs / 1.249 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 104 of 668 SUCCESS (0 secs / 1.27 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 105 of 668 SUCCESS (0 secs / 1.293 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 106 of 668 SUCCESS (0 secs / 1.31 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 107 of 668 SUCCESS (0 secs / 1.322 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 108 of 668 SUCCESS (0 secs / 1.334 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 109 of 668 SUCCESS (0 secs / 1.346 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 110 of 668 SUCCESS (0 secs / 1.362 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 111 of 668 SUCCESS (0 secs / 1.375 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 112 of 668 SUCCESS (0 secs / 1.388 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 113 of 668 SUCCESS (0 secs / 1.419 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 114 of 668 SUCCESS (0 secs / 1.424 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 115 of 668 SUCCESS (0 secs / 1.427 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 116 of 668 SUCCESS (0 secs / 1.429 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 117 of 668 SUCCESS (0 secs / 1.431 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 118 of 668 SUCCESS (0 secs / 1.434 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 119 of 668 SUCCESS (0 secs / 1.437 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 120 of 668 SUCCESS (0 secs / 1.439 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 121 of 668 SUCCESS (0 secs / 1.443 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 122 of 668 SUCCESS (0 secs / 1.447 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 123 of 668 SUCCESS (0 secs / 1.466 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 124 of 668 SUCCESS (0 secs / 1.473 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 125 of 668 SUCCESS (0 secs / 1.479 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 126 of 668 SUCCESS (0 secs / 1.487 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 127 of 668 SUCCESS (0 secs / 1.493 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 128 of 668 SUCCESS (0 secs / 1.585 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 129 of 668 SUCCESS (0 secs / 1.607 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 130 of 668 SUCCESS (0 secs / 1.625 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 131 of 668 SUCCESS (0 secs / 1.644 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 132 of 668 SUCCESS (0 secs / 1.646 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 133 of 668 SUCCESS (0 secs / 1.647 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 134 of 668 SUCCESS (0 secs / 1.647 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 135 of 668 SUCCESS (0 secs / 1.648 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 136 of 668 SUCCESS (0 secs / 1.648 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 137 of 668 SUCCESS (0 secs / 1.648 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 138 of 668 SUCCESS (0 secs / 1.648 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 139 of 668 SUCCESS (0 secs / 1.648 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 140 of 668 SUCCESS (0 secs / 1.649 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 141 of 668 SUCCESS (0 secs / 1.649 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 142 of 668 SUCCESS (0 secs / 1.649 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 143 of 668 SUCCESS (0 secs / 1.649 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 144 of 668 SUCCESS (0 secs / 1.649 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 145 of 668 SUCCESS (0 secs / 1.654 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 146 of 668 (skipped 2) SUCCESS (0 secs / 1.656 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 147 of 668 (skipped 2) SUCCESS (0 secs / 1.658 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 148 of 668 (skipped 2) SUCCESS (0 secs / 1.659 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 149 of 668 (skipped 2) SUCCESS (0 secs / 1.677 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 150 of 668 (skipped 2) SUCCESS (0 secs / 1.684 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 151 of 668 (skipped 2) SUCCESS (0 secs / 1.693 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 152 of 668 (skipped 2) SUCCESS (0 secs / 1.709 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 153 of 668 (skipped 2) SUCCESS (0 secs / 1.716 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 154 of 668 (skipped 2) SUCCESS (0 secs / 1.725 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 155 of 668 (skipped 2) SUCCESS (0 secs / 1.767 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 156 of 668 (skipped 2) SUCCESS (0 secs / 1.781 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 157 of 668 (skipped 2) SUCCESS (0 secs / 1.794 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 158 of 668 (skipped 2) SUCCESS (0 secs / 1.818 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 159 of 668 (skipped 2) SUCCESS (0 secs / 1.834 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 160 of 668 (skipped 2) SUCCESS (0 secs / 1.847 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 161 of 668 (skipped 2) SUCCESS (0 secs / 1.86 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 162 of 668 (skipped 2) SUCCESS (0 secs / 1.88 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 163 of 668 (skipped 2) SUCCESS (0 secs / 1.9 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 164 of 668 (skipped 2) SUCCESS (0 secs / 1.935 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 165 of 668 (skipped 2) SUCCESS (0 secs / 1.958 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 166 of 668 (skipped 2) SUCCESS (0 secs / 1.979 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 167 of 668 (skipped 2) SUCCESS (0 secs / 1.993 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 168 of 668 (skipped 2) SUCCESS (0 secs / 2.006 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 169 of 668 (skipped 2) SUCCESS (0 secs / 2.017 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 170 of 668 (skipped 2) SUCCESS (0 secs / 2.033 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 171 of 668 (skipped 2) SUCCESS (0 secs / 2.042 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 172 of 668 (skipped 2) SUCCESS (0 secs / 2.052 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 173 of 668 (skipped 2) SUCCESS (0 secs / 2.064 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 174 of 668 (skipped 2) SUCCESS (0 secs / 2.076 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 175 of 668 (skipped 2) SUCCESS (0 secs / 2.089 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 176 of 668 (skipped 2) SUCCESS (0 secs / 2.1 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 177 of 668 (skipped 2) SUCCESS (0 secs / 2.113 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 178 of 668 (skipped 2) SUCCESS (0 secs / 2.125 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 179 of 668 (skipped 2) SUCCESS (0 secs / 2.136 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 180 of 668 (skipped 2) SUCCESS (0 secs / 2.146 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 181 of 668 (skipped 2) SUCCESS (0 secs / 2.17 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 182 of 668 (skipped 2) SUCCESS (0 secs / 2.172 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 183 of 668 (skipped 2) SUCCESS (0 secs / 2.173 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 184 of 668 (skipped 2) SUCCESS (0 secs / 2.174 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 185 of 668 (skipped 2) SUCCESS (0 secs / 2.175 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 186 of 668 (skipped 2) SUCCESS (0 secs / 2.176 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 187 of 668 (skipped 2) SUCCESS (0 secs / 2.177 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 188 of 668 (skipped 2) SUCCESS (0 secs / 2.178 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 189 of 668 (skipped 2) SUCCESS (0 secs / 2.179 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 190 of 668 (skipped 2) SUCCESS (0 secs / 2.18 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 191 of 668 (skipped 2) SUCCESS (0 secs / 2.195 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 192 of 668 (skipped 2) SUCCESS (0 secs / 2.198 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 193 of 668 (skipped 2) SUCCESS (0 secs / 2.2 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 194 of 668 (skipped 2) SUCCESS (0 secs / 2.203 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 195 of 668 (skipped 2) SUCCESS (0 secs / 2.206 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 196 of 668 (skipped 2) SUCCESS (0 secs / 2.207 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 197 of 668 (skipped 2) SUCCESS (0 secs / 2.209 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 198 of 668 (skipped 2) SUCCESS (0 secs / 2.211 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 199 of 668 (skipped 2) SUCCESS (0 secs / 2.214 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 200 of 668 (skipped 2) SUCCESS (0 secs / 2.216 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 201 of 668 (skipped 2) SUCCESS (0 secs / 2.218 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 202 of 668 (skipped 2) SUCCESS (0 secs / 2.221 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 203 of 668 (skipped 2) SUCCESS (0 secs / 2.227 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 204 of 668 (skipped 2) SUCCESS (0 secs / 2.275 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 205 of 668 (skipped 2) SUCCESS (0 secs / 2.3 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 206 of 668 (skipped 2) SUCCESS (0 secs / 2.319 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 207 of 668 (skipped 2) SUCCESS (0 secs / 2.335 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 208 of 668 (skipped 2) SUCCESS (0 secs / 2.352 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 209 of 668 (skipped 2) SUCCESS (0 secs / 2.378 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 210 of 668 (skipped 2) SUCCESS (0 secs / 2.396 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 211 of 668 (skipped 2) SUCCESS (0 secs / 2.416 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 212 of 668 (skipped 2) SUCCESS (0 secs / 2.431 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 213 of 668 (skipped 2) SUCCESS (0 secs / 2.449 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 214 of 668 (skipped 2) SUCCESS (0 secs / 2.462 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 215 of 668 (skipped 2) SUCCESS (0 secs / 2.475 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 216 of 668 (skipped 2) SUCCESS (0 secs / 2.493 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 217 of 668 (skipped 2) SUCCESS (0 secs / 2.51 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 218 of 668 (skipped 2) SUCCESS (0 secs / 2.527 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 219 of 668 (skipped 2) SUCCESS (0 secs / 2.543 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 220 of 668 (skipped 2) SUCCESS (0 secs / 2.557 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 221 of 668 (skipped 2) SUCCESS (0 secs / 2.575 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 222 of 668 (skipped 2) SUCCESS (0 secs / 2.593 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 223 of 668 (skipped 2) SUCCESS (0 secs / 2.608 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 224 of 668 (skipped 2) SUCCESS (0 secs / 2.621 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 225 of 668 (skipped 2) SUCCESS (0 secs / 2.636 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 226 of 668 (skipped 2) SUCCESS (0 secs / 2.67 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 227 of 668 (skipped 2) SUCCESS (0 secs / 2.69 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 228 of 668 (skipped 2) SUCCESS (0 secs / 2.711 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 229 of 668 (skipped 2) SUCCESS (0 secs / 2.713 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 230 of 668 (skipped 2) SUCCESS (0 secs / 2.735 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 231 of 668 (skipped 2) SUCCESS (0 secs / 2.736 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 232 of 668 (skipped 2) SUCCESS (0 secs / 2.738 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 233 of 668 (skipped 2) SUCCESS (0 secs / 2.739 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 234 of 668 (skipped 2) SUCCESS (0 secs / 2.74 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 235 of 668 (skipped 2) SUCCESS (0 secs / 2.772 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 236 of 668 (skipped 2) SUCCESS (0 secs / 2.792 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 237 of 668 (skipped 2) SUCCESS (0 secs / 2.809 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 238 of 668 (skipped 2) SUCCESS (0 secs / 2.822 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 239 of 668 (skipped 2) SUCCESS (0 secs / 2.836 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 240 of 668 (skipped 2) SUCCESS (0 secs / 2.848 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 241 of 668 (skipped 2) SUCCESS (0 secs / 2.861 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 242 of 668 (skipped 2) SUCCESS (0 secs / 2.871 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 243 of 668 (skipped 2) SUCCESS (0 secs / 2.879 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 244 of 668 (skipped 2) SUCCESS (0 secs / 2.887 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 245 of 668 (skipped 2) SUCCESS (0 secs / 2.888 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 246 of 668 (skipped 2) SUCCESS (0 secs / 2.889 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 247 of 668 (skipped 2) SUCCESS (0 secs / 2.89 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 248 of 668 (skipped 2) SUCCESS (0 secs / 2.891 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 249 of 668 (skipped 2) SUCCESS (0 secs / 2.892 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 250 of 668 (skipped 2) SUCCESS (0 secs / 2.893 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 251 of 668 (skipped 2) SUCCESS (0 secs / 2.894 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 252 of 668 (skipped 2) SUCCESS (0 secs / 2.894 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 253 of 668 (skipped 2) SUCCESS (0 secs / 2.92 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 254 of 668 (skipped 2) SUCCESS (0 secs / 2.947 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 255 of 668 (skipped 2) SUCCESS (0 secs / 2.962 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 256 of 668 (skipped 2) SUCCESS (0 secs / 2.977 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 257 of 668 (skipped 2) SUCCESS (0 secs / 2.992 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 258 of 668 (skipped 2) SUCCESS (0 secs / 3.008 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 259 of 668 (skipped 2) SUCCESS (0 secs / 3.025 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 260 of 668 (skipped 2) SUCCESS (0 secs / 3.04 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 261 of 668 (skipped 2) SUCCESS (0 secs / 3.055 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 262 of 668 (skipped 2) SUCCESS (0 secs / 3.07 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 263 of 668 (skipped 2) SUCCESS (0 secs / 3.085 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 264 of 668 (skipped 2) SUCCESS (0 secs / 3.099 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 265 of 668 (skipped 2) SUCCESS (0 secs / 3.115 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 266 of 668 (skipped 2) SUCCESS (0 secs / 3.132 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 267 of 668 (skipped 2) SUCCESS (0 secs / 3.135 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 268 of 668 (skipped 2) SUCCESS (0 secs / 3.136 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 269 of 668 (skipped 2) SUCCESS (0 secs / 3.137 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 270 of 668 (skipped 2) SUCCESS (0 secs / 3.158 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 271 of 668 (skipped 2) SUCCESS (0 secs / 3.179 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 272 of 668 (skipped 2) SUCCESS (0 secs / 3.202 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 273 of 668 (skipped 2) SUCCESS (0 secs / 3.219 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 274 of 668 (skipped 2) SUCCESS (0 secs / 3.241 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 275 of 668 (skipped 2) SUCCESS (0 secs / 3.262 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 276 of 668 (skipped 2) SUCCESS (0 secs / 3.297 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 277 of 668 (skipped 2) SUCCESS (0 secs / 3.315 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 278 of 668 (skipped 2) SUCCESS (0 secs / 3.335 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 279 of 668 (skipped 2) SUCCESS (0 secs / 3.352 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 280 of 668 (skipped 2) SUCCESS (0 secs / 3.367 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 281 of 668 (skipped 2) SUCCESS (0 secs / 3.383 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 282 of 668 (skipped 2) SUCCESS (0 secs / 3.399 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 283 of 668 (skipped 2) SUCCESS (0 secs / 3.401 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 284 of 668 (skipped 2) SUCCESS (0 secs / 3.401 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 285 of 668 (skipped 2) SUCCESS (0 secs / 3.401 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 286 of 668 (skipped 2) SUCCESS (0 secs / 3.421 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 287 of 668 (skipped 2) SUCCESS (0 secs / 3.428 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 288 of 668 (skipped 2) SUCCESS (0 secs / 3.431 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 289 of 668 (skipped 2) SUCCESS (0 secs / 3.436 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 290 of 668 (skipped 2) SUCCESS (0 secs / 3.441 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 291 of 668 (skipped 2) SUCCESS (0 secs / 3.445 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 292 of 668 (skipped 2) SUCCESS (0 secs / 3.45 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 293 of 668 (skipped 2) SUCCESS (0 secs / 3.542 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 294 of 668 (skipped 2) SUCCESS (0 secs / 3.596 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 295 of 668 (skipped 2) SUCCESS (0 secs / 3.646 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 296 of 668 (skipped 2) SUCCESS (0 secs / 3.697 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 297 of 668 (skipped 2) SUCCESS (0 secs / 3.749 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 298 of 668 (skipped 2) SUCCESS (0 secs / 3.804 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 299 of 668 (skipped 2) SUCCESS (0 secs / 3.856 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 300 of 668 (skipped 2) SUCCESS (0 secs / 3.91 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 301 of 668 (skipped 2) SUCCESS (0 secs / 3.963 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 302 of 668 (skipped 2) SUCCESS (0 secs / 4.028 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 303 of 668 (skipped 2) SUCCESS (0 secs / 4.082 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 304 of 668 (skipped 2) SUCCESS (0 secs / 4.137 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 305 of 668 (skipped 2) SUCCESS (0 secs / 4.19 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 306 of 668 (skipped 2) SUCCESS (0 secs / 4.245 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 307 of 668 (skipped 2) SUCCESS (0 secs / 4.299 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 308 of 668 (skipped 2) SUCCESS (0 secs / 4.358 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 309 of 668 (skipped 2) SUCCESS (0 secs / 4.416 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 310 of 668 (skipped 2) SUCCESS (0 secs / 4.47 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 311 of 668 (skipped 2) SUCCESS (0 secs / 4.524 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 312 of 668 (skipped 2) SUCCESS (0 secs / 4.581 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 313 of 668 (skipped 2) SUCCESS (0 secs / 4.633 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 314 of 668 (skipped 2) SUCCESS (0 secs / 4.69 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 315 of 668 (skipped 2) SUCCESS (0 secs / 4.747 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 316 of 668 (skipped 2) SUCCESS (0 secs / 4.749 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 317 of 668 (skipped 2) SUCCESS (0 secs / 4.75 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 318 of 668 (skipped 2) SUCCESS (0 secs / 4.751 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 319 of 668 (skipped 2) SUCCESS (0 secs / 4.785 secs)
+[33m21 10 2025 07:34:11.568:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 320 of 668 (skipped 2) SUCCESS (0 secs / 4.801 secs)
+[33m21 10 2025 07:34:11.604:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 321 of 668 (skipped 2) SUCCESS (0 secs / 4.817 secs)
+[33m21 10 2025 07:34:11.633:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 322 of 668 (skipped 2) SUCCESS (0 secs / 4.833 secs)
+[33m21 10 2025 07:34:11.671:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 323 of 668 (skipped 2) SUCCESS (0 secs / 4.854 secs)
+[33m21 10 2025 07:34:11.712:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 324 of 668 (skipped 2) SUCCESS (0 secs / 4.871 secs)
+[33m21 10 2025 07:34:11.747:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 325 of 668 (skipped 2) SUCCESS (0 secs / 4.891 secs)
+[33m21 10 2025 07:34:11.792:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 326 of 668 (skipped 2) SUCCESS (0 secs / 4.921 secs)
+[33m21 10 2025 07:34:11.842:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/products/undefined
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 327 of 668 (skipped 2) SUCCESS (0 secs / 4.925 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 328 of 668 (skipped 2) SUCCESS (0 secs / 4.927 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 329 of 668 (skipped 2) SUCCESS (0 secs / 4.928 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 330 of 668 (skipped 2) SUCCESS (0 secs / 4.929 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 331 of 668 (skipped 2) SUCCESS (0 secs / 4.93 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 332 of 668 (skipped 2) SUCCESS (0 secs / 4.942 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 333 of 668 (skipped 2) SUCCESS (0 secs / 4.943 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 334 of 668 (skipped 2) SUCCESS (0 secs / 4.967 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 335 of 668 (skipped 2) SUCCESS (0 secs / 4.98 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 336 of 668 (skipped 2) SUCCESS (0 secs / 4.989 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 337 of 668 (skipped 2) SUCCESS (0 secs / 4.998 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 338 of 668 (skipped 2) SUCCESS (0 secs / 5.008 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 339 of 668 (skipped 2) SUCCESS (0 secs / 5.02 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 340 of 668 (skipped 2) SUCCESS (0 secs / 5.029 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 341 of 668 (skipped 2) SUCCESS (0 secs / 5.039 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 342 of 668 (skipped 2) SUCCESS (0 secs / 5.05 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 343 of 668 (skipped 2) SUCCESS (0 secs / 5.06 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 344 of 668 (skipped 2) SUCCESS (0 secs / 5.071 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 345 of 668 (skipped 2) SUCCESS (0 secs / 5.083 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 346 of 668 (skipped 2) SUCCESS (0 secs / 5.093 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 347 of 668 (skipped 2) SUCCESS (0 secs / 5.103 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 348 of 668 (skipped 2) SUCCESS (0 secs / 5.114 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 349 of 668 (skipped 2) SUCCESS (0 secs / 5.124 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 350 of 668 (skipped 2) SUCCESS (0 secs / 5.213 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 351 of 668 (skipped 2) SUCCESS (0 secs / 5.215 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 352 of 668 (skipped 2) SUCCESS (0 secs / 5.216 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 353 of 668 (skipped 2) SUCCESS (0 secs / 5.217 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 354 of 668 (skipped 2) SUCCESS (0 secs / 5.227 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 355 of 668 (skipped 2) SUCCESS (0 secs / 5.234 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 356 of 668 (skipped 2) SUCCESS (0 secs / 5.238 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 357 of 668 (skipped 2) SUCCESS (0 secs / 5.241 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 358 of 668 (skipped 2) SUCCESS (0 secs / 5.242 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 359 of 668 (skipped 2) SUCCESS (0 secs / 5.247 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 360 of 668 (skipped 2) SUCCESS (0 secs / 5.258 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 361 of 668 (skipped 2) SUCCESS (0 secs / 5.261 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 362 of 668 (skipped 2) SUCCESS (0 secs / 5.266 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 363 of 668 (skipped 2) SUCCESS (0 secs / 5.271 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 364 of 668 (skipped 2) SUCCESS (0 secs / 5.278 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 365 of 668 (skipped 2) SUCCESS (0 secs / 5.282 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 366 of 668 (skipped 2) SUCCESS (0 secs / 5.287 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 367 of 668 (skipped 2) SUCCESS (0 secs / 5.291 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 368 of 668 (skipped 2) SUCCESS (0 secs / 5.295 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 369 of 668 (skipped 2) SUCCESS (0 secs / 5.296 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 370 of 668 (skipped 2) SUCCESS (0 secs / 5.297 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 371 of 668 (skipped 2) SUCCESS (0 secs / 5.298 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 372 of 668 (skipped 2) SUCCESS (0 secs / 5.299 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 373 of 668 (skipped 2) SUCCESS (0 secs / 5.3 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 374 of 668 (skipped 2) SUCCESS (0 secs / 5.301 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 375 of 668 (skipped 2) SUCCESS (0 secs / 5.373 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 376 of 668 (skipped 2) SUCCESS (0 secs / 5.391 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 377 of 668 (skipped 2) SUCCESS (0 secs / 5.422 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 378 of 668 (skipped 2) SUCCESS (0 secs / 5.437 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 379 of 668 (skipped 2) SUCCESS (0 secs / 5.452 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 380 of 668 (skipped 2) SUCCESS (0 secs / 5.467 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 381 of 668 (skipped 2) SUCCESS (0 secs / 5.481 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 382 of 668 (skipped 2) SUCCESS (0 secs / 5.496 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 383 of 668 (skipped 2) SUCCESS (0 secs / 5.512 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 384 of 668 (skipped 2) SUCCESS (0 secs / 5.519 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 385 of 668 (skipped 2) SUCCESS (0 secs / 5.524 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 386 of 668 (skipped 2) SUCCESS (0 secs / 5.531 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 387 of 668 (skipped 2) SUCCESS (0 secs / 5.535 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 388 of 668 (skipped 2) SUCCESS (0 secs / 5.539 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 389 of 668 (skipped 2) SUCCESS (0 secs / 5.546 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 390 of 668 (skipped 2) SUCCESS (0 secs / 5.548 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 391 of 668 (skipped 2) SUCCESS (0 secs / 5.549 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 392 of 668 (skipped 2) SUCCESS (0 secs / 5.55 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 393 of 668 (skipped 2) SUCCESS (0 secs / 5.551 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 394 of 668 (skipped 2) SUCCESS (0 secs / 5.552 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 394 of 668 (skipped 2) SUCCESS (0 secs / 5.552 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 395 of 668 (skipped 2) SUCCESS (0 secs / 5.559 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 395 of 668 (skipped 2) SUCCESS (0 secs / 5.559 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 396 of 668 (skipped 2) SUCCESS (0 secs / 5.561 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 396 of 668 (skipped 2) SUCCESS (0 secs / 5.561 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 397 of 668 (skipped 2) SUCCESS (0 secs / 5.563 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 397 of 668 (skipped 2) SUCCESS (0 secs / 5.563 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 398 of 668 (skipped 2) SUCCESS (0 secs / 5.565 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 398 of 668 (skipped 2) SUCCESS (0 secs / 5.565 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 399 of 668 (skipped 2) SUCCESS (0 secs / 5.567 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 400 of 668 (skipped 2) SUCCESS (0 secs / 5.568 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 401 of 668 (skipped 2) SUCCESS (0 secs / 5.569 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 402 of 668 (skipped 2) SUCCESS (0 secs / 5.569 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 403 of 668 (skipped 2) SUCCESS (0 secs / 5.57 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 404 of 668 (skipped 2) SUCCESS (0 secs / 5.571 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 405 of 668 (skipped 2) SUCCESS (0 secs / 5.583 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 406 of 668 (skipped 2) SUCCESS (0 secs / 5.585 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 407 of 668 (skipped 2) SUCCESS (0 secs / 5.586 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 408 of 668 (skipped 2) SUCCESS (0 secs / 5.587 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 409 of 668 (skipped 2) SUCCESS (0 secs / 5.588 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 410 of 668 (skipped 2) SUCCESS (0 secs / 5.589 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 411 of 668 (skipped 2) SUCCESS (0 secs / 5.589 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 412 of 668 (skipped 2) SUCCESS (0 secs / 5.589 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 413 of 668 (skipped 2) SUCCESS (0 secs / 5.589 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 414 of 668 (skipped 2) SUCCESS (0 secs / 5.59 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 415 of 668 (skipped 2) SUCCESS (0 secs / 5.591 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 416 of 668 (skipped 2) SUCCESS (0 secs / 5.592 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 417 of 668 (skipped 2) SUCCESS (0 secs / 5.593 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 418 of 668 (skipped 2) SUCCESS (0 secs / 5.593 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 419 of 668 (skipped 2) SUCCESS (0 secs / 5.594 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 420 of 668 (skipped 2) SUCCESS (0 secs / 5.595 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 421 of 668 (skipped 2) SUCCESS (0 secs / 5.596 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 422 of 668 (skipped 2) SUCCESS (0 secs / 5.597 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 423 of 668 (skipped 2) SUCCESS (0 secs / 5.598 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 424 of 668 (skipped 2) SUCCESS (0 secs / 5.599 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 425 of 668 (skipped 2) SUCCESS (0 secs / 5.611 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 426 of 668 (skipped 2) SUCCESS (0 secs / 5.62 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 427 of 668 (skipped 2) SUCCESS (0 secs / 5.628 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 428 of 668 (skipped 2) SUCCESS (0 secs / 5.645 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 429 of 668 (skipped 2) SUCCESS (0 secs / 5.654 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 430 of 668 (skipped 2) SUCCESS (0 secs / 5.655 secs)
+[1A[2KWARN: 'Spec 'LocalBackupService should not restore language from an outdated backup version' has no expectations.'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 430 of 668 (skipped 2) SUCCESS (0 secs / 5.655 secs)
+WARN: 'Spec 'LocalBackupService should not restore language from an outdated backup version' has no expectations.'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 431 of 668 (skipped 2) SUCCESS (0 secs / 5.663 secs)
+[1A[2KWARN: 'Spec 'LocalBackupService should restore language from backup file' has no expectations.'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 431 of 668 (skipped 2) SUCCESS (0 secs / 5.663 secs)
+WARN: 'Spec 'LocalBackupService should restore language from backup file' has no expectations.'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 432 of 668 (skipped 2) SUCCESS (0 secs / 5.664 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 433 of 668 (skipped 2) SUCCESS (0 secs / 5.666 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 434 of 668 (skipped 2) SUCCESS (0 secs / 5.679 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 435 of 668 (skipped 2) SUCCESS (0 secs / 5.687 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 436 of 668 (skipped 2) SUCCESS (0 secs / 5.697 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 437 of 668 (skipped 2) SUCCESS (0 secs / 5.706 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 438 of 668 (skipped 2) SUCCESS (0 secs / 5.714 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 439 of 668 (skipped 2) SUCCESS (0 secs / 5.722 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 440 of 668 (skipped 2) SUCCESS (0 secs / 5.73 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 441 of 668 (skipped 2) SUCCESS (0 secs / 5.738 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 442 of 668 (skipped 2) SUCCESS (0 secs / 5.746 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 443 of 668 (skipped 2) SUCCESS (0 secs / 5.753 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 444 of 668 (skipped 2) SUCCESS (0 secs / 5.756 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 445 of 668 (skipped 2) SUCCESS (0 secs / 5.758 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 446 of 668 (skipped 2) SUCCESS (0 secs / 5.76 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 447 of 668 (skipped 2) SUCCESS (0 secs / 5.762 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 448 of 668 (skipped 2) SUCCESS (0 secs / 5.763 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 449 of 668 (skipped 2) SUCCESS (0 secs / 5.764 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 450 of 668 (skipped 2) SUCCESS (0 secs / 5.764 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 451 of 668 (skipped 2) SUCCESS (0 secs / 5.765 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 452 of 668 (skipped 2) SUCCESS (0 secs / 5.766 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 453 of 668 (skipped 2) SUCCESS (0 secs / 5.767 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 454 of 668 (skipped 2) SUCCESS (0 secs / 5.768 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 455 of 668 (skipped 2) SUCCESS (0 secs / 5.769 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 456 of 668 (skipped 2) SUCCESS (0 secs / 5.781 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 457 of 668 (skipped 2) SUCCESS (0 secs / 5.793 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 458 of 668 (skipped 2) SUCCESS (0 secs / 5.805 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 458 of 668 (skipped 3) SUCCESS (0 secs / 5.805 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 459 of 668 (skipped 3) SUCCESS (0 secs / 5.845 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 459 of 668 (skipped 3) SUCCESS (0 secs / 5.845 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 460 of 668 (skipped 3) SUCCESS (0 secs / 5.866 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 460 of 668 (skipped 3) SUCCESS (0 secs / 5.866 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 461 of 668 (skipped 3) SUCCESS (0 secs / 5.992 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 461 of 668 (skipped 3) SUCCESS (0 secs / 5.992 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 462 of 668 (skipped 3) SUCCESS (0 secs / 6.013 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 462 of 668 (skipped 3) SUCCESS (0 secs / 6.013 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 463 of 668 (skipped 3) SUCCESS (0 secs / 6.033 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 463 of 668 (skipped 3) SUCCESS (0 secs / 6.033 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 464 of 668 (skipped 3) SUCCESS (0 secs / 6.052 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 464 of 668 (skipped 3) SUCCESS (0 secs / 6.052 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 465 of 668 (skipped 3) SUCCESS (0 secs / 6.071 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 465 of 668 (skipped 3) SUCCESS (0 secs / 6.071 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 466 of 668 (skipped 3) SUCCESS (0 secs / 6.091 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 466 of 668 (skipped 3) SUCCESS (0 secs / 6.091 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 467 of 668 (skipped 3) SUCCESS (0 secs / 6.11 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 467 of 668 (skipped 3) SUCCESS (0 secs / 6.11 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 468 of 668 (skipped 3) SUCCESS (0 secs / 6.13 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 468 of 668 (skipped 3) SUCCESS (0 secs / 6.13 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 469 of 668 (skipped 3) SUCCESS (0 secs / 6.149 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 469 of 668 (skipped 3) SUCCESS (0 secs / 6.149 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 470 of 668 (skipped 3) SUCCESS (0 secs / 6.17 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 470 of 668 (skipped 3) SUCCESS (0 secs / 6.17 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 471 of 668 (skipped 3) SUCCESS (0 secs / 6.202 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 471 of 668 (skipped 3) SUCCESS (0 secs / 6.202 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 472 of 668 (skipped 3) SUCCESS (0 secs / 6.223 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 472 of 668 (skipped 3) SUCCESS (0 secs / 6.223 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 473 of 668 (skipped 3) SUCCESS (0 secs / 6.243 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 473 of 668 (skipped 3) SUCCESS (0 secs / 6.243 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 474 of 668 (skipped 3) SUCCESS (0 secs / 6.263 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 474 of 668 (skipped 3) SUCCESS (0 secs / 6.263 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 475 of 668 (skipped 3) SUCCESS (0 secs / 6.283 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 475 of 668 (skipped 3) SUCCESS (0 secs / 6.283 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 476 of 668 (skipped 3) SUCCESS (0 secs / 6.303 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 476 of 668 (skipped 3) SUCCESS (0 secs / 6.303 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 477 of 668 (skipped 3) SUCCESS (0 secs / 6.326 secs)
+[1A[2KERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 477 of 668 (skipped 3) SUCCESS (0 secs / 6.326 secs)
+ERROR: '[HLJS] ', 'Highlight.js library was not imported!'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 478 of 668 (skipped 3) SUCCESS (0 secs / 6.346 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 479 of 668 (skipped 4) SUCCESS (0 secs / 6.347 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 480 of 668 (skipped 4) SUCCESS (0 secs / 6.348 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 481 of 668 (skipped 4) SUCCESS (0 secs / 6.349 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 482 of 668 (skipped 4) SUCCESS (0 secs / 6.349 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 483 of 668 (skipped 4) SUCCESS (0 secs / 6.349 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 484 of 668 (skipped 4) SUCCESS (0 secs / 6.349 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 485 of 668 (skipped 4) SUCCESS (0 secs / 6.35 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 486 of 668 (skipped 4) SUCCESS (0 secs / 6.351 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 487 of 668 (skipped 4) SUCCESS (0 secs / 6.364 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 488 of 668 (skipped 4) SUCCESS (0 secs / 6.39 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 489 of 668 (skipped 5) SUCCESS (0 secs / 6.398 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 490 of 668 (skipped 5) SUCCESS (0 secs / 6.419 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 491 of 668 (skipped 5) SUCCESS (0 secs / 6.422 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 492 of 668 (skipped 5) SUCCESS (0 secs / 6.424 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 493 of 668 (skipped 5) SUCCESS (0 secs / 6.428 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 494 of 668 (skipped 5) SUCCESS (0 secs / 6.431 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 495 of 668 (skipped 5) SUCCESS (0 secs / 6.434 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 496 of 668 (skipped 5) SUCCESS (0 secs / 6.437 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 497 of 668 (skipped 5) SUCCESS (0 secs / 6.461 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 498 of 668 (skipped 5) SUCCESS (0 secs / 6.485 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 499 of 668 (skipped 5) SUCCESS (0 secs / 6.507 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 500 of 668 (skipped 5) SUCCESS (0 secs / 6.529 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 501 of 668 (skipped 5) SUCCESS (0 secs / 6.556 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 502 of 668 (skipped 5) SUCCESS (0 secs / 6.578 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 503 of 668 (skipped 5) SUCCESS (0 secs / 6.607 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 504 of 668 (skipped 5) SUCCESS (0 secs / 6.63 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 505 of 668 (skipped 5) SUCCESS (0 secs / 6.652 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 506 of 668 (skipped 5) SUCCESS (0 secs / 6.664 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 507 of 668 (skipped 5) SUCCESS (0 secs / 6.678 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 508 of 668 (skipped 5) SUCCESS (0 secs / 6.688 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 509 of 668 (skipped 5) SUCCESS (0 secs / 6.701 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 510 of 668 (skipped 5) SUCCESS (0 secs / 6.724 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 511 of 668 (skipped 5) SUCCESS (0 secs / 6.735 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 512 of 668 (skipped 5) SUCCESS (0 secs / 6.746 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 513 of 668 (skipped 5) SUCCESS (0 secs / 6.759 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 514 of 668 (skipped 5) SUCCESS (0 secs / 6.77 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 515 of 668 (skipped 5) SUCCESS (0 secs / 6.782 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 516 of 668 (skipped 5) SUCCESS (0 secs / 6.796 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 517 of 668 (skipped 5) SUCCESS (0 secs / 6.809 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 518 of 668 (skipped 5) SUCCESS (0 secs / 6.82 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 519 of 668 (skipped 5) SUCCESS (0 secs / 6.834 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 520 of 668 (skipped 5) SUCCESS (0 secs / 6.845 secs)
+[33m21 10 2025 07:34:15.083:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/ChatbotAvatar.png
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 521 of 668 (skipped 5) SUCCESS (0 secs / 6.852 secs)
+[33m21 10 2025 07:34:15.112:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/ChatbotAvatar.png
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 522 of 668 (skipped 5) SUCCESS (0 secs / 6.859 secs)
+[33m21 10 2025 07:34:15.131:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/ChatbotAvatar.png
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 523 of 668 (skipped 5) SUCCESS (0 secs / 6.868 secs)
+[33m21 10 2025 07:34:15.159:WARN [web-server]: [39m404: /_karma_webpack_/assets/public/images/ChatbotAvatar.png
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 524 of 668 (skipped 5) SUCCESS (0 secs / 6.869 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 525 of 668 (skipped 5) SUCCESS (0 secs / 6.87 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 526 of 668 (skipped 5) SUCCESS (0 secs / 6.871 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 527 of 668 (skipped 5) SUCCESS (0 secs / 6.872 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 528 of 668 (skipped 5) SUCCESS (0 secs / 6.873 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 529 of 668 (skipped 5) SUCCESS (0 secs / 6.874 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 530 of 668 (skipped 5) SUCCESS (0 secs / 6.875 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 531 of 668 (skipped 5) SUCCESS (0 secs / 6.884 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 532 of 668 (skipped 5) SUCCESS (0 secs / 6.895 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 533 of 668 (skipped 5) SUCCESS (0 secs / 6.912 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 534 of 668 (skipped 5) SUCCESS (0 secs / 6.919 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 535 of 668 (skipped 5) SUCCESS (0 secs / 6.929 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 536 of 668 (skipped 5) SUCCESS (0 secs / 6.935 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 537 of 668 (skipped 5) SUCCESS (0 secs / 6.942 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 538 of 668 (skipped 5) SUCCESS (0 secs / 6.943 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 539 of 668 (skipped 5) SUCCESS (0 secs / 6.944 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 540 of 668 (skipped 5) SUCCESS (0 secs / 6.951 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 541 of 668 (skipped 5) SUCCESS (0 secs / 6.954 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 542 of 668 (skipped 5) SUCCESS (0 secs / 6.956 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 543 of 668 (skipped 5) SUCCESS (0 secs / 6.958 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 544 of 668 (skipped 5) SUCCESS (0 secs / 6.972 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 545 of 668 (skipped 5) SUCCESS (0 secs / 6.978 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 546 of 668 (skipped 5) SUCCESS (0 secs / 6.988 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 547 of 668 (skipped 5) SUCCESS (0 secs / 7.025 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 548 of 668 (skipped 5) SUCCESS (0 secs / 7.035 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 549 of 668 (skipped 5) SUCCESS (0 secs / 7.044 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 550 of 668 (skipped 5) SUCCESS (0 secs / 7.052 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 551 of 668 (skipped 5) SUCCESS (0 secs / 7.06 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 552 of 668 (skipped 5) SUCCESS (0 secs / 7.065 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 553 of 668 (skipped 5) SUCCESS (0 secs / 7.07 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 554 of 668 (skipped 5) SUCCESS (0 secs / 7.076 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 555 of 668 (skipped 5) SUCCESS (0 secs / 7.082 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 556 of 668 (skipped 5) SUCCESS (0 secs / 7.083 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 557 of 668 (skipped 5) SUCCESS (0 secs / 7.085 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 558 of 668 (skipped 5) SUCCESS (0 secs / 7.086 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 559 of 668 (skipped 5) SUCCESS (0 secs / 7.087 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 560 of 668 (skipped 5) SUCCESS (0 secs / 7.088 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 561 of 668 (skipped 5) SUCCESS (0 secs / 7.088 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 562 of 668 (skipped 5) SUCCESS (0 secs / 7.094 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 563 of 668 (skipped 5) SUCCESS (0 secs / 7.1 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 564 of 668 (skipped 5) SUCCESS (0 secs / 7.105 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 565 of 668 (skipped 5) SUCCESS (0 secs / 7.109 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 566 of 668 (skipped 5) SUCCESS (0 secs / 7.111 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 567 of 668 (skipped 5) SUCCESS (0 secs / 7.113 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 568 of 668 (skipped 5) SUCCESS (0 secs / 7.147 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 569 of 668 (skipped 5) SUCCESS (0 secs / 7.175 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 570 of 668 (skipped 5) SUCCESS (0 secs / 7.206 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 571 of 668 (skipped 5) SUCCESS (0 secs / 7.235 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 572 of 668 (skipped 5) SUCCESS (0 secs / 7.26 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 573 of 668 (skipped 5) SUCCESS (0 secs / 7.293 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 574 of 668 (skipped 5) SUCCESS (0 secs / 7.323 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 575 of 668 (skipped 5) SUCCESS (0 secs / 7.35 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 576 of 668 (skipped 5) SUCCESS (0 secs / 7.38 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 577 of 668 (skipped 5) SUCCESS (0 secs / 7.409 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 578 of 668 (skipped 5) SUCCESS (0 secs / 7.435 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 579 of 668 (skipped 5) SUCCESS (0 secs / 7.463 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 580 of 668 (skipped 5) SUCCESS (0 secs / 7.495 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 581 of 668 (skipped 5) SUCCESS (0 secs / 7.523 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 582 of 668 (skipped 5) SUCCESS (0 secs / 7.551 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 583 of 668 (skipped 5) SUCCESS (0 secs / 7.58 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 584 of 668 (skipped 5) SUCCESS (0 secs / 7.607 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 585 of 668 (skipped 5) SUCCESS (0 secs / 7.646 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 586 of 668 (skipped 5) SUCCESS (0 secs / 7.655 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 587 of 668 (skipped 5) SUCCESS (0 secs / 7.661 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 588 of 668 (skipped 5) SUCCESS (0 secs / 7.679 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 589 of 668 (skipped 5) SUCCESS (0 secs / 7.689 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 590 of 668 (skipped 5) SUCCESS (0 secs / 7.707 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 591 of 668 (skipped 5) SUCCESS (0 secs / 7.715 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 592 of 668 (skipped 5) SUCCESS (0 secs / 7.726 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 593 of 668 (skipped 5) SUCCESS (0 secs / 7.732 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 594 of 668 (skipped 5) SUCCESS (0 secs / 7.74 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+[1A[2KWARN: 'Could not find Element with fixture "app-navbar"'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+WARN: 'Could not find Element with fixture "app-navbar"'
+[1A[2KWARN: 'Could not find Element with fixture "app-navbar"'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+WARN: 'Could not find Element with fixture "app-navbar"'
+[1A[2KWARN: 'Could not find Element with fixture "app-navbar"'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+WARN: 'Could not find Element with fixture "app-navbar"'
+[1A[2KWARN: 'Could not find Element with fixture "app-navbar"'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+WARN: 'Could not find Element with fixture "app-navbar"'
+[1A[2KWARN: 'Could not find Element with fixture "app-navbar"'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+WARN: 'Could not find Element with fixture "app-navbar"'
+[1A[2KWARN: 'Could not find Element with fixture "app-score-board"'
+Chrome Headless 140.0.0.0 (Linux 0.0.0): Executed 595 of 668 (skipped 5) SUCCESS (0 secs / 7.747 secs)
+WARN: 'Could not find Element with fixture "app-score-board"'
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 596 of 668 (skipped 5) SUCCESS (0 secs / 7.758 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 597 of 668 (skipped 5) SUCCESS (0 secs / 7.771 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 598 of 668 (skipped 5) SUCCESS (0 secs / 7.785 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 599 of 668 (skipped 5) SUCCESS (0 secs / 7.786 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 600 of 668 (skipped 5) SUCCESS (0 secs / 7.787 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 601 of 668 (skipped 5) SUCCESS (0 secs / 7.788 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 602 of 668 (skipped 5) SUCCESS (0 secs / 7.788 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 603 of 668 (skipped 5) SUCCESS (0 secs / 7.79 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 604 of 668 (skipped 5) SUCCESS (0 secs / 7.793 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 605 of 668 (skipped 5) SUCCESS (0 secs / 7.796 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 606 of 668 (skipped 5) SUCCESS (0 secs / 7.799 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 607 of 668 (skipped 5) SUCCESS (0 secs / 7.799 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 608 of 668 (skipped 5) SUCCESS (0 secs / 7.799 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 609 of 668 (skipped 5) SUCCESS (0 secs / 7.799 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 610 of 668 (skipped 5) SUCCESS (0 secs / 7.838 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 611 of 668 (skipped 5) SUCCESS (0 secs / 7.867 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 612 of 668 (skipped 5) SUCCESS (0 secs / 7.893 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 613 of 668 (skipped 5) SUCCESS (0 secs / 7.928 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 614 of 668 (skipped 5) SUCCESS (0 secs / 7.955 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 615 of 668 (skipped 5) SUCCESS (0 secs / 7.974 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 616 of 668 (skipped 5) SUCCESS (0 secs / 7.997 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 617 of 668 (skipped 5) SUCCESS (0 secs / 7.999 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 618 of 668 (skipped 5) SUCCESS (0 secs / 8 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 619 of 668 (skipped 5) SUCCESS (0 secs / 8 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 620 of 668 (skipped 5) SUCCESS (0 secs / 8.007 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 621 of 668 (skipped 5) SUCCESS (0 secs / 8.013 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 622 of 668 (skipped 5) SUCCESS (0 secs / 8.021 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 623 of 668 (skipped 5) SUCCESS (0 secs / 8.037 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 624 of 668 (skipped 5) SUCCESS (0 secs / 8.053 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 625 of 668 (skipped 5) SUCCESS (0 secs / 8.059 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 626 of 668 (skipped 5) SUCCESS (0 secs / 8.067 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 627 of 668 (skipped 5) SUCCESS (0 secs / 8.083 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 628 of 668 (skipped 5) SUCCESS (0 secs / 8.099 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 629 of 668 (skipped 5) SUCCESS (0 secs / 8.105 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 630 of 668 (skipped 5) SUCCESS (0 secs / 8.116 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 631 of 668 (skipped 5) SUCCESS (0 secs / 8.132 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 632 of 668 (skipped 5) SUCCESS (0 secs / 8.137 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 633 of 668 (skipped 5) SUCCESS (0 secs / 8.137 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 634 of 668 (skipped 5) SUCCESS (0 secs / 8.138 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 635 of 668 (skipped 5) SUCCESS (0 secs / 8.138 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 636 of 668 (skipped 5) SUCCESS (0 secs / 8.152 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 637 of 668 (skipped 5) SUCCESS (0 secs / 8.176 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 638 of 668 (skipped 5) SUCCESS (0 secs / 8.182 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 639 of 668 (skipped 5) SUCCESS (0 secs / 8.199 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 640 of 668 (skipped 5) SUCCESS (0 secs / 8.207 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 641 of 668 (skipped 5) SUCCESS (0 secs / 8.232 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 642 of 668 (skipped 5) SUCCESS (0 secs / 8.236 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 643 of 668 (skipped 5) SUCCESS (0 secs / 8.254 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 644 of 668 (skipped 5) SUCCESS (0 secs / 8.258 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 645 of 668 (skipped 5) SUCCESS (0 secs / 8.264 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 646 of 668 (skipped 5) SUCCESS (0 secs / 8.268 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 647 of 668 (skipped 5) SUCCESS (0 secs / 8.27 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 648 of 668 (skipped 5) SUCCESS (0 secs / 8.271 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 649 of 668 (skipped 5) SUCCESS (0 secs / 8.272 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 650 of 668 (skipped 5) SUCCESS (0 secs / 8.273 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 651 of 668 (skipped 5) SUCCESS (0 secs / 8.274 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 652 of 668 (skipped 5) SUCCESS (0 secs / 8.276 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 653 of 668 (skipped 5) SUCCESS (0 secs / 8.277 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 654 of 668 (skipped 5) SUCCESS (0 secs / 8.278 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 655 of 668 (skipped 5) SUCCESS (0 secs / 8.279 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 656 of 668 (skipped 5) SUCCESS (0 secs / 8.28 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 657 of 668 (skipped 5) SUCCESS (0 secs / 8.281 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 658 of 668 (skipped 5) SUCCESS (0 secs / 8.281 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 659 of 668 (skipped 5) SUCCESS (0 secs / 8.281 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 660 of 668 (skipped 5) SUCCESS (0 secs / 8.283 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 661 of 668 (skipped 5) SUCCESS (0 secs / 8.309 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 662 of 668 (skipped 5) SUCCESS (0 secs / 8.331 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 663 of 668 (skipped 5) SUCCESS (0 secs / 8.356 secs)
+[1A[2KChrome Headless 140.0.0.0 (Linux 0.0.0): Executed 663 of 668 (skipped 5) SUCCESS (13.822 secs / 8.356 secs)
+TOTAL: 663 SUCCESS
+TOTAL: 663 SUCCESS
+
+> juice-shop@18.0.0 test:server
+> nyc --report-dir=./build/reports/coverage/server-tests mocha -r ts-node/register -r source-map-support/register --recursive test/server/**/*.ts
+
+
+
+  angular
+    ✓ should serve index.html for any URL
+    ✓ should raise error for /api endpoint URL
+    ✓ should raise error for /rest endpoint URL
+
+  appConfiguration
+    ✓ should return configuration object
+
+  appVersion
+    ✓ 
+
+  b2bOrder
+    - infinite loop payload does not succeed but solves "rceChallenge"
+    - timeout after 2 seconds solves "rceOccupyChallenge"
+    ✓ deserializing JSON as documented in Swagger should not solve "rceChallenge"
+    ✓ deserializing arbitrary JSON should not solve "rceChallenge"
+    ✓ deserializing broken JSON should not solve "rceChallenge"
+
+  blueprint
+    checkExifData
+      ✓ should contain properties from exifForBlueprintChallenge
+
+  botUtils
+    testFunction
+      ✓ returns static test response
+    couponCode
+      ✓ response contains a valid 10% coupon code for current date
+
+  challengeCountryMapping
+    ✓ should have a country mapping for every challenge
+    ✓ should have unique country codes in every mapping
+
+  challengeTutorialSequence
+    ✓ should have unique tutorial orders
+
+  challengeUtils
+    findChallengeByName
+warn: Missing challenge with name: blubbChallenge
+      ✓ returns undefined for non-existing challenge
+      ✓ returns existing challenge
+    findChallengeById
+warn: Missing challenge with id: 43
+      ✓ returns undefined for non-existing challenge
+      ✓ returns existing challenge
+
+  chatBotValidation
+info: Chatbot training data botDefaultTrainingData.json validated (OK)
+    ✓ should accept the default chatbot training data
+warn: Intent queries.couponCode is missing in chatbot training data (NOT OK)
+warn: Intent queries.productPrice is missing in chatbot training data (NOT OK)
+warn: Intent queries.functionTest is missing in chatbot training data (NOT OK)
+warn: Chatbot training data botDefaultTrainingData.json validated (NOT OK)
+warn: Visit https://pwning.owasp-juice.shop/companion-guide/latest/part5/chatbot.html for the training data schema definition.
+    ✓ should fail if the chatbot training data is empty
+    checkIntentWithHandlerExists
+      ✓ should accept training data with the expected intent and handler
+warn: Intent queries.test is missing in chatbot training data (NOT OK)
+      ✓ should fail if the training data lacks the expected intent
+warn: Answer with function action and handler testHandler is missing for intent queries.test (NOT OK)
+      ✓ should fail if the training data lacks the expected handler for the given intent
+
+  vulnCodeSnippet
+    ✓ should assert single correctly selected vuln line as correct
+    ✓ should assert multiple correctly selected vuln lines as correct in any order
+    ✓ should ignore selected neutral lines during correct assertion
+    ✓ should assert missing vuln lines as wrong
+    ✓ should assert additionally selected lines as wrong
+    ✓ should assert lack of selected lines as wrong
+    ✓ should assert empty edge case as correct
+
+  codingChallengeFixes
+    ✓ should have a correct fix for each coding challenge
+    ✓ should have a total of three or more fix options for each coding challenge
+    ✓ should have an info YAML file for each coding challenge
+
+  configValidation
+info: Configuration default validated (OK)
+    ✓ should accept the active config from config/undefined.yml
+warn: Only 0 products are configured but at least four are required (NOT OK)
+warn: No product is configured as "Christmas Special" challenge product but one is required (NOT OK)
+warn: No product is configured as "Product Tampering" challenge product but one is required (NOT OK)
+warn: No product is configured as "Retrieve Blueprint" challenge product but one is required (NOT OK)
+warn: No product is configured as "Leaked Unsafe Product" challenge product but one is required (NOT OK)
+warn: Configuration default validated (NOT OK)
+warn: Visit https://pwning.owasp-juice.shop/companion-guide/latest/part4/customization.html#_yaml_configuration_file for the configuration schema definition.
+    ✓ should fail if the config is invalid
+    ✓ should accept a config with valid schema
+warn: Config schema validation failed with 4 errors (NOT OK)
+warn: application.domain: must be of type String.
+warn: application.welcomeBanner.showOnFirstStart: must be of type Boolean.
+warn: hackingInstructor.avatarImage: must be of type String.
+warn: application.id: is not present in schema
+    ✓ should fail for a config with schema errors
+    checkUnambiguousMandatorySpecialProducts
+      ✓ should accept a valid config
+warn: 2 products are configured as "Christmas Special" challenge product but only one is allowed (NOT OK)
+warn: No product is configured as "Leaked Unsafe Product" challenge product but one is required (NOT OK)
+      ✓ should fail if multiple products are configured for the same challenge
+warn: No product is configured as "Retrieve Blueprint" challenge product but one is required (NOT OK)
+warn: No product is configured as "Leaked Unsafe Product" challenge product but one is required (NOT OK)
+      ✓ should fail if a required challenge product is missing
+    checkNecessaryExtraKeysOnSpecialProducts
+      ✓ should accept a valid config
+warn: Product Melon Juice configured as "Retrieve Blueprint" challenge product does't contain necessary list of EXIF metadata properties (NOT OK)
+      ✓ should fail if product has no exifForBlueprintChallenge
+    checkUniqueSpecialOnProducts
+      ✓ should accept a valid config
+warn: Product Apple Juice is used as "Christmas Special" challenge product and "Product Tampering" challenge product but can only be used for one challenge (NOT OK)
+      ✓ should fail if a product is configured for multiple challenges
+    checkMinimumRequiredNumberOfProducts
+      ✓ should accept a valid config
+warn: Only 3 products are configured but at least four are required (NOT OK)
+      ✓ should fail if less than 4 products are configured
+    checkUnambiguousMandatorySpecialMemories
+      ✓ should accept a valid config
+warn: 2 memories are configured as "Meta Geo Stalking" challenge memory but only one is allowed (NOT OK)
+      ✓ should fail if multiple memories are configured for the same challenge
+warn: No memory is configured as "Visual Geo Stalking" challenge memory but one is required (NOT OK)
+      ✓ should fail if a required challenge memory is missing
+warn: No memory is configured as "Meta Geo Stalking" challenge memory but one is required (NOT OK)
+warn: No memory is configured as "Visual Geo Stalking" challenge memory but one is required (NOT OK)
+      ✓ should fail if memories have mixed up the required challenge keys
+    checkThatThereIsOnlyOneMemoryPerSpecial
+      ✓ should accept a valid config
+warn: Memory Bla is used as "Meta Geo Stalking" challenge memory and "Visual Geo Stalking" challenge memory but can only be used for one challenge (NOT OK)
+      ✓ should fail if a memory is configured for multiple challenges
+    checkSpecialMemoriesHaveNoUserAssociated
+      ✓ should accept a valid config
+      ✓ should accept a config where the default users are associated
+warn: Memory configured as "Meta Geo Stalking" challenge memory must belong to user john but was linked to admin user (NOT OK)
+      ✓ should fail if a memory is linked to another user
+    checkMinimumRequiredNumberOfMemories
+      ✓ should accept a valid config
+warn: Only 1 memories are configured but at least two are required (NOT OK)
+      ✓ should fail if less than 2 memories are configured
+
+  continueCode
+    ✓ should be empty when no challenges are solved
+    ✓ should be hashid value of IDs of solved challenges
+
+  countryMapping
+    ✓ should return configured country mappings
+warn: Country mapping was requested but was not found in the selected config file. Take a look at the fbctf.yml config file to find out how to configure the country mappings required by FBCTF.
+    ✓ should return server error when configuration has no country mappings
+warn: Country mapping was requested but was not found in the selected config file. Take a look at the fbctf.yml config file to find out how to configure the country mappings required by FBCTF.
+    ✓ should return server error for active configuration from config/undefined.yml
+
+  currentUser
+    ✓ should return neither ID nor email if no cookie was present in the request headers
+    ✓ should return ID and email of user belonging to cookie from the request
+
+  easterEgg
+    ✓ should serve /frontend/dist/frontend/assets/private/threejs-demo.html
+    ✓ should solve "easterEggLevelTwoChallenge"
+
+  fileServer
+    ✓ should serve PDF files from folder /ftp
+    ✓ should serve Markdown files from folder /ftp
+    ✓ should serve incident-support.kdbx files from folder /ftp
+    ✓ should raise error for slashes in filename
+    ✓ should raise error for disallowed file type
+    ✓ should solve "directoryListingChallenge" when requesting acquisitions.md
+    ✓ should solve "easterEggLevelOneChallenge" when requesting eastere.gg with Poison Null Byte attack
+    ✓ should solve "forgottenDevBackupChallenge" when requesting package.json.bak with Poison Null Byte attack
+    ✓ should solve "forgottenBackupChallenge" when requesting coupons_2013.md.bak with Poison Null Byte attack
+    ✓ should solve "misplacedSignatureFileChallenge" when requesting suspicious_errors.yml with Poison Null Byte attack
+
+  fileUpload
+    ✓ should solve "uploadSizeChallenge" when file size exceeds 100000 bytes
+    ✓ should solve "uploadTypeChallenge" when file type is not PDF
+    ✓ should not solve "uploadTypeChallenge" when file type is PDF
+    should not solve "uploadSizeChallenge" when file size is
+      ✓ 0 bytes
+      ✓ 1 bytes
+      ✓ 100 bytes
+      ✓ 1000 bytes
+      ✓ 10000 bytes
+      ✓ 99999 bytes
+      ✓ 100000 bytes
+
+  insecurity
+    cutOffPoisonNullByte
+      ✓ returns string unchanged if it contains no null byte
+      ✓ returns string up to null byte
+    userEmailFrom
+      ✓ returns content of "x-user-email" header if present
+      ✓ returns undefined if header "x-user-email" is not present
+    generateCoupon
+      ✓ returns base85-encoded month, year and discount as coupon code
+      ✓ uses current month and year if not specified
+      ✓ does not encode day of month or time into coupon code
+    discountFromCoupon
+      ✓ returns undefined when not passing in a coupon code
+      ✓ returns undefined for malformed coupon code
+      ✓ returns undefined for coupon code not according to expected pattern
+      ✓ returns undefined for expired coupon code
+      ✓ returns discount from valid coupon code
+    authenticatedUsers
+      ✓ returns user by associated token
+      ✓ returns undefined if no token is passed in
+      ✓ returns token by associated user
+      ✓ returns user by associated token from request
+      ✓ returns undefined if no token is present in request
+    sanitizeHtml
+      ✓ handles empty inputs by returning their string representation
+      ✓ returns input unchanged for plain text input
+      ✓ returns input unchanged for HTML input with only harmless text formatting
+      ✓ returns input unchanged for HTML input with only harmless links
+      ✓ removes all Javascript from HTML input
+      ✓ can be bypassed by exploiting lack of recursive sanitization
+    sanitizeLegacy
+      ✓ returns empty string for undefined input
+      ✓ returns input unchanged for plain text input
+      ✓ removes all opening tags and subsequent character from HTML input
+      ✓ can be bypassed to allow working HTML payload to be returned
+    sanitizeSecure
+      ✓ handles empty inputs by returning their string representation
+      ✓ returns input unchanged for plain text input
+      ✓ returns input unchanged for HTML input with only harmless text formatting
+      ✓ returns input unchanged for HTML input with only harmless links
+      ✓ removes all Javascript from HTML input
+      ✓ cannot be bypassed by exploiting lack of recursive sanitization
+    hash
+      ✓ returns MD5 hash for any input string
+    hmac
+      ✓ returns SHA-256 HMAC with "pa4qacea4VK9t9nGv7yZtwmj" as salt any input string
+
+  keyServer
+    ✓ should serve requested file from folder /encryptionkeys
+    ✓ should raise error for slashes in filename
+
+  preconditionValidation
+    checkIfRunningOnSupportedNodeVersion
+      ✓ should define the supported semver range as 20 - 22
+info: Detected Node.js version 22.4.1 (OK)
+info: Detected Node.js version 21.7.3 (OK)
+info: Detected Node.js version 20.15.1 (OK)
+      ✓ should accept a supported version
+warn: Detected Node version 24.0.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 23.11.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 19.9.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 18.20.4 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 17.3.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 16.10.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 15.9.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 14.0.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 13.13.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 12.16.2 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 11.14.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 10.20.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 9.11.2 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 8.12.0 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 7.10.1 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 6.14.4 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 4.9.1 is not in the supported version range of 20 - 22 (NOT OK)
+warn: Detected Node version 0.12.8 is not in the supported version range of 20 - 22 (NOT OK)
+      ✓ should fail for an unsupported version
+    checkIfPortIsAvailable
+info: Port 3000 is available (OK)
+      ✓ should resolve when port 3000 is closed
+      open a server before running the test
+warn: Port 3000 is in use (NOT OK)
+        ✓ should reject when port 3000 is open
+
+  premiumReward
+    ✓ should serve /frontend/dist/frontend/assets/private/JuiceShop_Wallpaper_1920x1080_VR.jpg
+    ✓ should solve "premiumPaywallChallenge"
+
+  redirect
+    ✓ should raise error for URL not on allowlist
+    ✓ redirecting to https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm should solve the "redirectCryptoCurrencyChallenge"
+    ✓ redirecting to https://explorer.dash.org/address/Xr556RzuwX6hg5EGpkybbv5RanJoZN17kW should solve the "redirectCryptoCurrencyChallenge"
+    ✓ redirecting to https://etherscan.io/address/0x0f933ab9fcaaa782d0279c300d73750e1311eae6 should solve the "redirectCryptoCurrencyChallenge"
+    ✓ tricking the allowlist should solve "redirectChallenge"
+    should be performed for all allowlisted URLs
+      ✓ https://github.com/juice-shop/juice-shop
+      ✓ https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
+      ✓ https://explorer.dash.org/address/Xr556RzuwX6hg5EGpkybbv5RanJoZN17kW
+      ✓ https://etherscan.io/address/0x0f933ab9fcaaa782d0279c300d73750e1311eae6
+      ✓ http://shop.spreadshirt.com/juiceshop
+      ✓ http://shop.spreadshirt.de/juiceshop
+      ✓ https://www.stickeryou.com/products/owasp-juice-shop/794
+      ✓ http://leanpub.com/juice-shop
+
+  utils
+    toSimpleIpAddress
+      ✓ returns ipv6 address unchanged
+      ✓ returns ipv4 address fully specified as ipv6 unchanged
+      ✓ returns ipv6 loopback address as ipv4 address
+      ✓ returns ipv4-mapped address as ipv4 address
+    extractFilename
+      ✓ returns standalone filename unchanged
+      ✓ returns filename from http:// URL
+      ✓ ignores query part of http:// URL
+      ✓ also works for file:// URLs
+    matchesSystemIniFile
+      ✓ fails on plain input string
+      ✓ passes on Windows 10 system.ini file content
+    matchesEtcPasswdFile
+      ✓ fails on plain input string
+      ✓ passes on Arch Linux passwd file content
+    utils.getChallengeEnablementStatus
+      ✓ challenges without disabledEnv are enabled with safetyMode set to enabled
+      ✓ challenges without disabledEnv are enabled with safetyMode set to disabled
+      ✓ challenges without disabledEnv are enabled with safetyMode set to auto
+      ✓ safetyMode: 'enabled': challenge with disabledOnEnv Docker should be marked as disabled
+      ✓ safetyMode: 'auto': challenge with disabledOnEnv Docker should be marked as disabled
+      ✓ safetyMode: 'disabled': challenge with disabledOnEnv Docker should be marked as enabled
+      ✓ safetyMode: 'enabled': challenge with disabledOnEnv Heroku should be marked as disabled
+      ✓ safetyMode: 'auto': challenge with disabledOnEnv Heroku should be marked as disabled
+      ✓ safetyMode: 'disabled': challenge with disabledOnEnv Heroku should be marked as enabled
+      ✓ safetyMode: 'enabled': challenge with disabledOnEnv Windows should be marked as disabled
+      ✓ safetyMode: 'auto': challenge with disabledOnEnv Windows should be marked as disabled
+      ✓ safetyMode: 'disabled': challenge with disabledOnEnv Windows should be marked as enabled
+      ✓ safetyMode: 'enabled': challenge with disabledOnEnv Gitpod should be marked as disabled
+      ✓ safetyMode: 'auto': challenge with disabledOnEnv Gitpod should be marked as disabled
+      ✓ safetyMode: 'disabled': challenge with disabledOnEnv Gitpod should be marked as enabled
+
+  verify
+    "forgedFeedbackChallenge"
+      ✓ is not solved when an authenticated user passes his own ID when writing feedback
+      ✓ is not solved when an authenticated user passes no ID when writing feedback
+      ✓ is solved when an authenticated user passes someone elses ID when writing feedback
+      ✓ is solved when an unauthenticated user passes someones ID when writing feedback
+    accessControlChallenges
+      ✓ "scoreBoardChallenge" is solved when the 1px.png transpixel is requested
+      ✓ "adminSectionChallenge" is solved when the 19px.png transpixel is requested
+      ✓ "tokenSaleChallenge" is solved when the 56px.png transpixel is requested
+      ✓ "extraLanguageChallenge" is solved when the Klingon translation file is requested
+      ✓ "retrieveBlueprintChallenge" is solved when the blueprint file is requested
+      ✓ "missingEncodingChallenge" is solved when the crazy cat photo is requested
+      ✓ "accessLogDisclosureChallenge" is solved when any server access log file is requested
+    "errorHandlingChallenge"
+      ✓ is solved when an error occurs on a response with OK 200 status code
+      ✓ is not solved when no error occurs on a response with OK 200 status code
+      ✓ should pass occurred error on to next route
+      is solved when an error occurs on a response with error
+        ✓ 402 status code
+        ✓ 403 status code
+        ✓ 404 status code
+        ✓ 500 status code
+      is not solved when no error occurs on a response with error
+        ✓ 401 status code
+        ✓ 402 status code
+        ✓ 404 status code
+        ✓ 500 status code
+    databaseRelatedChallenges
+      "changeProductChallenge"
+        ✓ is solved when the link in the O-Saft product goes to https://owasp.slack.com
+        ✓ is not solved when the link in the O-Saft product is changed to an arbitrary URL
+        ✓ is not solved when the link in the O-Saft product remained unchanged
+    jwtChallenges
+      ✓ "jwtUnsignedChallenge" is solved when forged unsigned token has email jwtn3d@juice-sh.op in the payload
+      ✓ "jwtUnsignedChallenge" is solved when forged unsigned token has string "jwtn3d@" in the payload
+      ✓ "jwtUnsignedChallenge" is not solved via regularly signed token even with email jwtn3d@juice-sh.op in the payload
+      ✓ "jwtForgedChallenge" is solved when forged token HMAC-signed with public RSA-key has email rsa_lord@juice-sh.op in the payload
+      ✓ "jwtForgedChallenge" is solved when forged token HMAC-signed with public RSA-key has string "rsa_lord@" in the payload
+      ✓ "jwtForgedChallenge" is not solved when token regularly signed with private RSA-key has email rsa_lord@juice-sh.op in the payload
+
+  webhook
+    notify
+      ✓ ignores errors where no webhook URL is provided via environment variable
+      ✓ fails when supplied webhook is not a valid URL
+info: Webhook http://localhost:37569 notified about key being solved: 200
+      ✓ submits POST with payload to existing URL
+
+
+  204 passing (364ms)
+  2 pending
+
+
+=============================== Coverage summary ===============================
+Statements   : 24.37% ( 737/3024 )
+Branches     : 17.39% ( 216/1242 )
+Functions    : 18.22% ( 123/675 )
+Lines        : 21.79% ( 603/2767 )
+================================================================================

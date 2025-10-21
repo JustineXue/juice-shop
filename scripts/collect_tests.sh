@@ -8,10 +8,10 @@ ARTIFACT_DIR="./artifacts"
 rm -rf "$ARTIFACT_DIR"
 mkdir -p "$ARTIFACT_DIR"
 
-echo "📥 Fetching latest test-output artifact from GitHub Actions..."
+echo "📥 Fetching latest test-results artifact from GitHub Actions..."
 
 # Download the latest artifact named "test-output"
-gh run download --name "test-output" --dir "$ARTIFACT_DIR"
+gh run download --name "test-results" --dir "$ARTIFACT_DIR"
 
 # Verify the file exists
 if [[ -f "$ARTIFACT_DIR/test-output.txt" ]]; then

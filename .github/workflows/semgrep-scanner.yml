@@ -17,29 +17,29 @@ jobs:
       uses: actions/checkout@v4
 
     # --- Semgrep (Static Code Analysis) ---
-    - name: Run Semgrep
-      uses: returntocorp/semgrep-action@v1
-      continue-on-error: true
-      with:
-        config: p/ci
-        args: >-
-          --sarif -o semgrep.sarif
-          --exclude data/static/**
-          --exclude ftp/**
-          --exclude screenshots/**
-
     # - name: Run Semgrep
     #   uses: returntocorp/semgrep-action@v1
     #   continue-on-error: true
     #   with:
     #     config: p/ci
-    #     generateSarif: true
-    #     sarif: semgrep.sarif
-    #     # optionally narrow scope to reduce noise
-    #     exclude: |
-    #       data/static/**
-    #       ftp/**
-    #       screenshots/**
+    #     args: >-
+    #       --sarif -o semgrep.sarif
+    #       --exclude data/static/**
+    #       --exclude ftp/**
+    #       --exclude screenshots/**
+
+    - name: Run Semgrep
+      uses: returntocorp/semgrep-action@v1
+      continue-on-error: true
+      with:
+        config: p/ci
+        generateSarif: true
+        sarif: semgrep.sarif
+        # optionally narrow scope to reduce noise
+        exclude: |
+          data/static/**
+          ftp/**
+          screenshots/**
 
     # - name: Generate Semgrep Report
     #   if: always()

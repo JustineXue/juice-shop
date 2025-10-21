@@ -4,10 +4,12 @@ set -e
 # Directories
 ARTIFACT_DIR="./artifacts"
 
-echo "📥 Fetching latest semgrep-security-results artifact from GitHub Actions..."
+
+
+echo "📥 Fetching latest semgrep-results artifact from GitHub Actions..."
 
 # Download the latest artifact named "semgrep-security-results"
-gh run download --name "semgrep-security-results" --dir "$ARTIFACT_DIR"
+gh run download --name "semgrep-results" --dir "$ARTIFACT_DIR"
 
 # Verify the file exists
 SCAN_OUTPUT_FILE="$ARTIFACT_DIR/semgrep-report.txt"

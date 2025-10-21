@@ -41,63 +41,63 @@ jobs:
     #       ftp/**
     #       screenshots/**
 
-    - name: Generate Semgrep Report
-      if: always()
-      run: |
-        mkdir -p security-results
+    # - name: Generate Semgrep Report
+    #   if: always()
+    #   run: |
+    #     mkdir -p security-results
         
-        # Create a readable text report from Semgrep results
-        echo "Semgrep Security Scan Report" > security-results/semgrep-report.txt
-        echo "=============================" >> security-results/semgrep-report.txt
-        echo "" >> security-results/semgrep-report.txt
-        echo "Scan Date: $(date)" >> security-results/semgrep-report.txt
-        echo "Repository: ${{ github.repository }}" >> security-results/semgrep-report.txt
-        echo "Branch: ${{ github.ref_name }}" >> security-results/semgrep-report.txt
-        echo "Commit: ${{ github.sha }}" >> security-results/semgrep-report.txt
-        echo "" >> security-results/semgrep-report.txt
+    #     # Create a readable text report from Semgrep results
+    #     echo "Semgrep Security Scan Report" > security-results/semgrep-report.txt
+    #     echo "=============================" >> security-results/semgrep-report.txt
+    #     echo "" >> security-results/semgrep-report.txt
+    #     echo "Scan Date: $(date)" >> security-results/semgrep-report.txt
+    #     echo "Repository: ${{ github.repository }}" >> security-results/semgrep-report.txt
+    #     echo "Branch: ${{ github.ref_name }}" >> security-results/semgrep-report.txt
+    #     echo "Commit: ${{ github.sha }}" >> security-results/semgrep-report.txt
+    #     echo "" >> security-results/semgrep-report.txt
         
-        # Check if semgrep.sarif exists and extract findings
-        if [ -f semgrep.sarif ]; then
-          echo "Processing Semgrep SARIF results..." >> security-results/semgrep-report.txt
-          echo "" >> security-results/semgrep-report.txt
+    #     # Check if semgrep.sarif exists and extract findings
+    #     if [ -f semgrep.sarif ]; then
+    #       echo "Processing Semgrep SARIF results..." >> security-results/semgrep-report.txt
+    #       echo "" >> security-results/semgrep-report.txt
           
-          # Use jq to parse SARIF and create readable output
-          if command -v jq &> /dev/null; then
-            echo "Security Findings:" >> security-results/semgrep-report.txt
-            echo "-----------------" >> security-results/semgrep-report.txt
+    #       # Use jq to parse SARIF and create readable output
+    #       if command -v jq &> /dev/null; then
+    #         echo "Security Findings:" >> security-results/semgrep-report.txt
+    #         echo "-----------------" >> security-results/semgrep-report.txt
             
-            # Extract findings from SARIF
-            jq -r '.runs[0].results[]? | 
-              "Rule: " + (.ruleId // "Unknown") + 
-              "\nSeverity: " + (.level // "Unknown") + 
-              "\nMessage: " + (.message.text // "No message") + 
-              "\nFile: " + (.locations[0].physicalLocation.artifactLocation.uri // "Unknown") + 
-              "\nLine: " + (.locations[0].physicalLocation.region.startLine | tostring // "Unknown") + 
-              "\n---\n"' semgrep.sarif >> security-results/semgrep-report.txt || echo "No findings or error parsing SARIF" >> security-results/semgrep-report.txt
-          else
-            echo "jq not available, showing raw SARIF structure:" >> security-results/semgrep-report.txt
-            head -50 semgrep.sarif >> security-results/semgrep-report.txt
-          fi
-        else
-          echo "No SARIF file found. Check Semgrep action logs for details." >> security-results/semgrep-report.txt
-        fi
+    #         # Extract findings from SARIF
+    #         jq -r '.runs[0].results[]? | 
+    #           "Rule: " + (.ruleId // "Unknown") + 
+    #           "\nSeverity: " + (.level // "Unknown") + 
+    #           "\nMessage: " + (.message.text // "No message") + 
+    #           "\nFile: " + (.locations[0].physicalLocation.artifactLocation.uri // "Unknown") + 
+    #           "\nLine: " + (.locations[0].physicalLocation.region.startLine | tostring // "Unknown") + 
+    #           "\n---\n"' semgrep.sarif >> security-results/semgrep-report.txt || echo "No findings or error parsing SARIF" >> security-results/semgrep-report.txt
+    #       else
+    #         echo "jq not available, showing raw SARIF structure:" >> security-results/semgrep-report.txt
+    #         head -50 semgrep.sarif >> security-results/semgrep-report.txt
+    #       fi
+    #     else
+    #       echo "No SARIF file found. Check Semgrep action logs for details." >> security-results/semgrep-report.txt
+    #     fi
         
-        # Also copy the raw SARIF file for detailed analysis
-        if [ -f semgrep.sarif ]; then
-          cp semgrep.sarif security-results/semgrep-results.sarif
-        fi
+    #     # Also copy the raw SARIF file for detailed analysis
+    #     if [ -f semgrep.sarif ]; then
+    #       cp semgrep.sarif security-results/semgrep-results.sarif
+    #     fi
 
-    - name: Upload Semgrep Security Results
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: semgrep-security-results
-        path: security-results/
-        if-no-files-found: error
-        retention-days: 30
+    # - name: Upload Semgrep Security Results
+    #   if: always()
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: semgrep-security-results
+    #     path: security-results/
+    #     if-no-files-found: error
+    #     retention-days: 30
 
           
-    # - name: Upload Semgrep SARIF
-    #   uses: github/codeql-action/upload-sarif@v3
-    #   with:
-    #     sarif_file: semgrep.sarif 
+    - name: Upload Semgrep SARIF
+      uses: github/codeql-action/upload-sarif@v3
+      with:
+        sarif_file: semgrep.sarif 

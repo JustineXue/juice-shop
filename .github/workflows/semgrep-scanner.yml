@@ -19,8 +19,7 @@ jobs:
     - name: Run Semgrep and Save Output
       run: |
         pip install semgrep
-        semgrep --config p/owasp-top-10 --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
-#note: switched from p/ci to p/owasp-top-10 for more relevant rules
+        semgrep --config p/ci --config p/security-audit --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
 
     - name: Upload Semgrep Results
       uses: actions/upload-artifact@v4

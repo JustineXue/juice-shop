@@ -28,20 +28,24 @@ jobs:
     #       --exclude ftp/**
     #       --exclude screenshots/**
 
-    - name: Run Semgrep
-      uses: returntocorp/semgrep-action@v1
-      continue-on-error: true
-      with:
-        config: p/ci
-        generateSarif: true
-        sarif: semgrep.sarif
-        # optionally narrow scope to reduce noise
-        exclude: |
-          data/static/**
-          ftp/**
-          screenshots/**
+    # - name: Run Semgrep
+    #   uses: returntocorp/semgrep-action@v1
+    #   continue-on-error: true
+    #   with:
+    #     config: p/ci
+    #     generateSarif: true
+    #     sarif: semgrep.sarif
+    #     # optionally narrow scope to reduce noise
+    #     exclude: |
+    #       data/static/**
+    #       ftp/**
+    #       screenshots/**
 
-    # - name: Generate Semgrep Report
+    - name: Run Semgrep and Save Output
+      run: |
+        pip install semgrep
+        semgrep --config p/ci --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
+        
     #   if: always()
     #   run: |
     #     mkdir -p security-results
@@ -97,7 +101,15 @@ jobs:
     #     retention-days: 30
 
           
-    - name: Upload Semgrep SARIF
-      uses: github/codeql-action/upload-sarif@v3
+    # - name: Upload Semgrep SARIF
+    #   uses: github/codeql-action/upload-sarif@v3
+    #   with:
+    #     sarif_file: semgrep.sarif 
+
+    - name: Upload Semgrep Results
+      uses: actions/upload-artifact@v4
       with:
-        sarif_file: semgrep.sarif 
+        name: semgrep-results
+        path: |
+          semgrep_output.txt
+

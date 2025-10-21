@@ -17,20 +17,23 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run Semgrep Security Scan
+      id: semgrep
       uses: returntocorp/semgrep-action@v1
       with:
         config: p/owasp-top-ten
-        generateSarif: true
 
-    # - name: Run Semgrep and Save Output
-    #   run: |
-    #     pip install semgrep
-    #     semgrep --config p/ci --config p/security-audit --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
+    - name: Save Semgrep Output
+      run: echo "${{ steps.semgrep.outputs.stdout }}" > semgrep_output.txt
 
     - name: Upload Semgrep Results
       uses: actions/upload-artifact@v4
       with:
         name: semgrep-results
-        path: |
-          semgrep_output.txt
+        path: semgrep_output.txt
+
+
+    # - name: Run Semgrep and Save Output
+    #   run: |
+    #     pip install semgrep
+    #     semgrep --config p/ci --config p/security-audit --exclude data/static/** --exclude ftp/** --exclude screenshots/** | tee semgrep_output.txt
 
